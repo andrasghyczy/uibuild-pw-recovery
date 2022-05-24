@@ -1,0 +1,87 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-40%, -50%);
+          transform: translate(-40%, -50%);
+}
+
+body .container h1 {
+  font-weight: 300;
+  color: #006837;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  body .container h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 521px) {
+  body .container h1 {
+    font-size: 36px;
+  }
+}
+
+body .container .input-container {
+  max-width: 520px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #698651;
+  background-color: #f8c582;
+}
+
+@media (max-width: 520px) {
+  body .container .input-container {
+    width: 100vw;
+  }
+}
+
+body .container .input-container input {
+  width: 480px;
+  height: 64px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #98a999;
+}
+
+@media (max-width: 520px) {
+  body .container .input-container input {
+    width: 100%;
+  }
+}
+
+body button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #006837;
+  background-color: #f9c582;
+}
+/*# sourceMappingURL=style.css.map */
